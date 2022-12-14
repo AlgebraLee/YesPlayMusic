@@ -14,18 +14,18 @@
 
 <script>
 export default {
-  name: "ContentView"
-}
+  name: 'ContentView',
+};
 </script>
 
 <style scoped>
-card{
+card {
   width: 100%;
 }
-div.container{
+div.container {
   margin-top: 20px;
 }
-.card-body{
+.card-body {
   text-align: center;
 }
 </style>

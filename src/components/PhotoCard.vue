@@ -1,15 +1,15 @@
 <template>
   <div class="card">
     <div class="imgBx">
-      <img src="../assets/musical-note.png" class="img-fluid">
+      <img src="../assets/musical-note.png" class="img-fluid" />
     </div>
     <div class="content">
       <div class="details">
-        <h2>Alina Smith<br><span>Senior UX/UI Designer</span></h2>
+        <h2>Alina Smith<br /><span>Senior UX/UI Designer</span></h2>
         <div class="data">
-          <h3>342<br><span>Posts</span></h3>
-          <h3>120k<br><span>Followers</span></h3>
-          <h3>285<br><span>Following</span></h3>
+          <h3>342<br /><span>Posts</span></h3>
+          <h3>120k<br /><span>Followers</span></h3>
+          <h3>285<br /><span>Following</span></h3>
         </div>
         <div class="actionBtn">
           <button>Follow</button>
@@ -22,17 +22,16 @@
 
 <script>
 export default {
-  name: "PhotoCard"
-}
+  name: 'PhotoCard',
+};
 </script>
 
 <style scoped>
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:  sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -77,7 +76,7 @@ body {
   height: 250px;
 }
 
-.imgBx img{
+.imgBx img {
   position: absolute;
   top: 0;
   left: 0;
